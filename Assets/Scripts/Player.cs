@@ -103,6 +103,7 @@ public class Player : MonoBehaviour
         if (collision.CompareTag(ENEMY_TAG))
         {
             Destroy(gameObject);
+
         }
     }
 }
